@@ -101,6 +101,7 @@
 *此处推荐使用VMware workstation player，在非商业用途时免费* 
 
 [VMware]: ( https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html)
+
 [CentOS]: ( https://www.centos.org/)
 
 - ##### 创建新的虚拟机

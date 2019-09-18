@@ -8,11 +8,11 @@
 
 - 安装Git并注册
 
-  [Git]: (https://git-scm.com/downloads)
+  [Git]: ( https://git-scm.com/downloads)
 
 - 下载PuTTY端实现远程登录云服务器（老师给的教程使用XShell,但是这个免费,性质似乎都一样）
 
-  [PuTTY]: (https://www.putty.org/)
+  [PuTTY]: ( https://www.putty.org/)
 
   ![1568774507304](https://github.com/sonettofighting/SONETTO/blob/master/imgs/1568774507304.png)根据腾讯云公网IP地址远程登录
 
@@ -100,8 +100,8 @@
 
 *此处推荐使用VMware workstation player，在非商业用途时免费* 
 
-[VMware]: (https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html)
-[CentOS]: (https://www.centos.org/)
+[VMware]: ( https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html)
+[CentOS]: ( https://www.centos.org/)
 
 - ##### 创建新的虚拟机
 

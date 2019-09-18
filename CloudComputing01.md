@@ -4,7 +4,7 @@
 
 - 购买腾讯云服务器 centOS 7.6版本
 
-  [腾讯云学生计划]: https://cloud.tencent.com/act/campus
+  [腾讯云学生计划]:( https://cloud.tencent.com/act/campus)
 
 - 安装Git并注册
 

@@ -1,5 +1,7 @@
 # **README！**
 
+第一次实验（云计算基础）：https://github.com/sonettofighting/SONETTO/tree/master/basics
+
 ## 参考文献
 
 [linli's blog](https://blog.csdn.net/llfjfz/article/details/99747385)

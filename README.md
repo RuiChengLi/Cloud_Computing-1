@@ -1,11 +1,10 @@
-<<<<<<< HEAD
+
 # **基于云服务器创建个人网站**
 
-=======
 # **README！**
 
-第一次实验（云计算基础）：https://github.com/sonettofighting/SONETTO/tree/master/basics
-
+第一次实验（云计算基础）：https://github.com/sonettofighting/Cloud_Computing/tree/master/basics
+第二次实验（搭建WordPress）：https://github.com/sonettofighting/Cloud_Computing/tree/master/wordpress
 ## 参考文献
 
 [linli's blog](https://blog.csdn.net/llfjfz/article/details/99747385)

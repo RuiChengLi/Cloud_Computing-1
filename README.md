@@ -1,7 +1,7 @@
 
 # **基于云服务器创建个人网站**
 
-# **README！**
+# **README！*
 
 - 第一次实验（云计算基础）：https://github.com/sonettofighting/Cloud_Computing/tree/master/basics
 
@@ -16,7 +16,20 @@
 
 markdown[基本语法](https://www.jianshu.com/p/191d1e21f7ed)参考
 
-**sonettofighting**
+-----------------------
 
-这是第一次实验的测试
->>>>>>> 2c565b881fd92896199aaf0606c7d2a8cb70ece5
+## 操作注意
+
+git init //第一次
+git remote add origin remote_repository_URL //第一次
+git remote -v
+git pull origin master //拉下来
+git status
+git add .
+git commit -m “First commit”
+git push -u origin master
+
+如果遇到本地仓库不一致的情况下:
+git pull origin 
+git merge origin master
+git push origin 

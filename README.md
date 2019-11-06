@@ -30,3 +30,5 @@
   git pull origin 
   git merge origin master
   git push origin 
+  
+- 提醒自己，已经创建过文件夹了..不要再创建了.....

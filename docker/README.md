@@ -6,7 +6,7 @@
 
 ###### 腾讯云 CentOS 7.6
 
-## 安装docker
+# 子实验一：安装docker
 
 * 更新应用程序库
 
@@ -41,7 +41,7 @@
   >
   > ![图片加载慢](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/5.png)
 
-## 获取CentOS镜像
+### 获取CentOS镜像
 
 * 查找centos
 
@@ -67,7 +67,7 @@
   >
   > ![图片加载慢](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/9.png)
 
-## 在CentOS镜像中搭建WordPress
+# 子实验二：在CentOS镜像中搭建WordPress
 
 ### 预处理：遇到的问题
 
@@ -187,7 +187,7 @@
 >
 > ![图片加载慢](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/wd1.png)
 >
-> git clone http://gitee.com/helang_z/wordpress.git4
+> git clone http://gitee.com/helang_z/wordpress.git
 >
 > ![图片加载慢](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/wd2.png)
 >
@@ -259,7 +259,124 @@
 
 ![图片加载慢](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/hb5.png)
 
-# 结果 
+### 结果 
 
 ![图片加载慢](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/result.jpg)
 
+# 子实验三：Dockfile
+
+##### 准备的内容总共有这些
+
+---------
+
+
+
+![1574576736597](F:\dasan\Git\docker\docker\images\1574576736597.png)
+
+#### 前期准备文件
+
+-----------
+
+
+
+![1574577681484](F:\dasan\Git\docker\docker\images\1574577681484.png)
+
+![1574578177059](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\1574578177059.png)
+
+（wordpress从何浪同学的github上下载：git clone http://gitee.com/helang_z/wordpress.git）
+
+### Dockerfile内容
+
+-------
+
+
+
+![1574577217186](1574577217186.png)
+
+### install.sh
+
+---------
+
+
+
+##### -包括apache、php、mysql、wordpress的安装
+
+![1574577352782](1574577352782.png)
+
+
+
+### mysql的配置
+
+-------------
+
+
+
+#### setup.sh
+
+![1574577642829](1574577642829.png)
+
+#### server.cnf
+
+![1574577803476](1574577803476.png)
+
+#### 数据库文件wordpress.sql
+
+![1574577962980](1574577962980.png)
+
+#### Dockerfile最后执行的shell脚本：start_all.sh
+
+--------
+
+
+
+![1574578068028](1574578068028.png)
+
+之前没有加最后两句，容器创建成功了一直打不会开。
+
+# 验证
+
+#### 搭建image
+
+![1574578449805](1574578449805.png)
+
+#### 查看images
+
+![1574578476076](1574578476076.png)
+
+#### 创建并查看container
+
+![1574578556972](1574578556972.png)
+
+#### 查看container运行状态
+
+![1574578588949](1574578588949.png)
+
+##### 正在运行！
+
+#### 查看容器内部文件
+
+![1574578966192](1574578966192.png)
+
+##### 说明前面COPY进来的东西都成功拷贝咯
+
+#### 以交互的形式进入container，打开mysql
+
+![1574578857239](1574578857239.png)
+
+##### 查看到wordpress.sql中的数据库被成功创建咯
+
+### 打开网页，输入ip及对应映射的端口号
+
+![1574578663330](1574578663330.png)
+
+#### 进去了也就说明apache服务器和php搭成了
+
+![](1574578678942.png)
+
+![1574578695124](1574578695124.png)
+
+搭建成功
+
+# 
+
+感谢感谢898989898989989898989！

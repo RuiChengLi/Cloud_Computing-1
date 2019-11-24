@@ -217,8 +217,6 @@
 
 #### 登录wordpress
 
-> https://106.54.38.228:8888
->
 > //根据提示，修改信息，完成搭建。
 >
 > ![图片加载慢](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/wd6.png)
@@ -271,7 +269,7 @@
 
 
 
-![1574576736597](F:\dasan\Git\docker\docker\images\1574576736597.png)
+![1574576736597](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/1574576736597.png)
 
 #### 前期准备文件
 
@@ -279,7 +277,7 @@
 
 
 
-![1574577681484](F:\dasan\Git\docker\docker\images\1574577681484.png)
+![1574577681484](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/1574577681484.png)
 
 ![1574578177059](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\1574578177059.png)
 
@@ -291,7 +289,7 @@
 
 
 
-![1574577217186](1574577217186.png)
+![1574577217186](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/1574577217186.png)
 
 ### install.sh
 
@@ -301,7 +299,7 @@
 
 ##### -包括apache、php、mysql、wordpress的安装
 
-![1574577352782](1574577352782.png)
+![1574577352782](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/1574577352782.png)
 
 
 
@@ -313,15 +311,15 @@
 
 #### setup.sh
 
-![1574577642829](1574577642829.png)
+![1574577642829](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/1574577642829.png)
 
 #### server.cnf
 
-![1574577803476](1574577803476.png)
+![1574577803476](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/1574577803476.png)
 
 #### 数据库文件wordpress.sql
 
-![1574577962980](1574577962980.png)
+![1574577962980](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/1574577962980.png)
 
 #### Dockerfile最后执行的shell脚本：start_all.sh
 
@@ -329,7 +327,7 @@
 
 
 
-![1574578068028](1574578068028.png)
+![1574578068028](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/1574578068028.png)
 
 之前没有加最后两句，容器创建成功了一直打不会开。
 
@@ -337,46 +335,46 @@
 
 #### 搭建image
 
-![1574578449805](1574578449805.png)
+![1574578449805](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/1574578449805.png)
 
 #### 查看images
 
-![1574578476076](1574578476076.png)
+![1574578476076](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/1574578476076.png)
 
 #### 创建并查看container
 
-![1574578556972](1574578556972.png)
+![1574578556972](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/1574578556972.png)
 
 #### 查看container运行状态
 
-![1574578588949](1574578588949.png)
+![1574578588949](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/1574578588949.png)
 
 ##### 正在运行！
 
 #### 查看容器内部文件
 
-![1574578966192](1574578966192.png)
+![1574578966192](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/1574578966192.png)
 
 ##### 说明前面COPY进来的东西都成功拷贝咯
 
 #### 以交互的形式进入container，打开mysql
 
-![1574578857239](1574578857239.png)
+![1574578857239](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/1574578857239.png)
 
 ##### 查看到wordpress.sql中的数据库被成功创建咯
 
 ### 打开网页，输入ip及对应映射的端口号
 
-![1574578663330](1574578663330.png)
+![1574578663330](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/1574578663330.png)
 
 #### 进去了也就说明apache服务器和php搭成了
 
-![](1574578678942.png)
+![](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/1574578678942.png)
 
-![1574578695124](1574578695124.png)
+![1574578695124](https://github.com/sonettofighting/Cloud_Computing/blob/master/docker/images/1574578695124.png)
 
 搭建成功
 
-# 
 
-感谢感谢898989898989989898989！
+
+#感谢感谢898989898989989898989！

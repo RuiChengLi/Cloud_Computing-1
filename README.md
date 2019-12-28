@@ -8,7 +8,7 @@
 
 - 第三次实验(Docker):https://github.com/sonettofighting/Cloud_Computing/tree/master/docker
 
-  
+- 第四次实验(CEPH):https://github.com/sonettofighting/Cloud_Computing/tree/master/ceph
 -----------------------
 
 ## 操作注意

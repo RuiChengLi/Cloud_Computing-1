@@ -107,7 +107,7 @@ copy ssh id
 
 设置管理节点为mon1
 
-![](https://github.com/sonettofighting/Cloud_Computing/blob/master/ceph/imgs/模拟.png)
+![](https://github.com/sonettofighting/Cloud_Computing/blob/master/ceph/imgs/mon.png)
 
 配置./ceph.config文件 
 
@@ -127,6 +127,10 @@ epel-release可能会出错，只要执行删除操作即可
 
 ![](https://github.com/sonettofighting/Cloud_Computing/blob/master/ceph/imgs/云计算二号-2019-12-13-23-00-02.png)
 
+得到结果应该最后会是这样
+
+![](https://github.com/sonettofighting/Cloud_Computing/blob/master/ceph/imgs/云计算二号-2019-12-14-09-04-48.png)
+
 登录osd1、osd2，创建供分发的目录，修改权限并返回admin用户，进行ceph-deploy prepare。
 
 ![](https://github.com/sonettofighting/Cloud_Computing/blob/master/ceph/imgs/云计算二号-2019-12-14-09-09-39.png)
@@ -136,10 +140,6 @@ epel-release可能会出错，只要执行删除操作即可
 ```
 ceph-deploy osd activate osd1:/osd1 osd2:/osd2
 ```
-
-得到结果应该最后会是这样
-
-![](https://github.com/sonettofighting/Cloud_Computing/blob/master/ceph/imgs/云计算二号-2019-12-14-09-04-48.png)
 
 部署管理节点
 
